@@ -33,7 +33,7 @@ h1{
 
 }
 #holder{
-    height: 25%;
+    height: 20%;
     width: 100%;
 }
 
@@ -62,7 +62,6 @@ h1{
 
 .xmrimg{
     width: 50px;
-    margin-left: 25px;
     margin-top: 65px;
     float: left;
     
@@ -72,15 +71,7 @@ h1{
     border-top: 1px solid white;
 }
 
-.divider{
-    height: 99%;
-    width: 2px;
-    float: right;
-    background-color: white;
-    
-}
-.contain{
-    float: right;
-    width: 250px;
-    height: 99%;
+#total{
+    border-top: 2px solid white;
+    height: 20%;
 }
