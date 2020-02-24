@@ -55,7 +55,7 @@ h1{
 
 .ltcimg{
     width: 100px;
-    margin-top: 45px;
+    margin-top: 40px;
     float: left;
     
 }
@@ -64,6 +64,7 @@ h1{
     width: 50px;
     margin-top: 65px;
     float: left;
+    margin-left: 25px;
     
 }
 
@@ -74,4 +75,13 @@ h1{
 #total{
     border-top: 2px solid white;
     height: 20%;
+}
+
+.form{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.form2{
+    margin-left: 75px;
+    margin-top: 70px;
 }
