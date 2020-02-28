@@ -15,49 +15,45 @@ function request(method, url) {
 function btc(){
 request('GET','https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=20&CMC_PRO_API_KEY=' + apikey.key)
 .then((r1) => {
-  let bitcoin = (JSON.parse(r1.target.response).data[0].quote.USD.price);
-  console.log(bitcoin);
+  console.log((JSON.parse(r1.target.response).data[0].quote.USD.price));
 }).catch(err => {
     console.log(err);
 });
 
-return bitcoin
+
 }
 
 function eth(){
 request('GET','https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=20&CMC_PRO_API_KEY=' + apikey.key)
 .then((r1) => {
-  let etherium = (JSON.parse(r1.target.response).data[1].quote.USD.price)
-  console.log(etherium);
+  console.log((JSON.parse(r1.target.response).data[1].quote.USD.price));
 }).catch(err => {
     console.log(err);
 });
 
-return etherium
+
 }
 
 function ltc(){
 request('GET','https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=20&CMC_PRO_API_KEY=' + apikey.key)
 .then((r1) => {
-  let litecoin = (JSON.parse(r1.target.response).data[6].quote.USD.price);
-  console.log(litecoin);
+  console.log((JSON.parse(r1.target.response).data[6].quote.USD.price));
 }).catch(err => {
     console.log(err);
 });
 
-return litecoin
+
 }
 
 function xmr(){
 request('GET','https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=20&CMC_PRO_API_KEY=' + apikey.key)
 .then((r1) => {
-  let monero = (JSON.parse(r1.target.response).data[12].quote.USD.price);
-  console.log(monero);
+  console.log((JSON.parse(r1.target.response).data[12].quote.USD.price));
 }).catch(err => {
     console.log(err);
 });
 
-return monero
+
 }
 
 request('GET','https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=20&CMC_PRO_API_KEY=' + apikey.key)
@@ -67,6 +63,9 @@ request('GET','https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/late
     console.log(err);
 })
 
-function calculateTotla(){
-  
-}
+btc();
+eth();
+ltc();
+xmr();
+
+
