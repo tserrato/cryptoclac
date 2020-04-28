@@ -9,7 +9,7 @@
     <title>Crypto Cost Calculator</title>
 </head>
 
-<body onload="getBTC(),getETH(),getLTC(),getXMR()">
+<body>
     <h1>Crypto Cost Calculator</h1>
     <div id="left">
         <div id="widget">
@@ -37,17 +37,21 @@
         </div>
     </div>
     <div id="right">
-        <div id="holder"><img class="btcimg" src="images/BC_Logo_.png">
-            <div id="inputhol"><input type="text" id="btcam" class="form"></div>
+        <div id="holder">
+            <label for="Bitcoin">Bitcoin</label>
+            <input class="btcInput" type="number" id="Bitcoin" onkeyup="btc()">
         </div>
-        <div id="holder" class="top"><img class="ethimg" src="images/628px-Ethereum_logo_2014.svg.png">
-            <div id="inputholt"><input type="text" id="etham" class="form"></div>
+        <div id="holder" class="top">
+            <label for="Ethereum">Ethereum</label>
+            <input class="ethInput" type="number" id="Ethereum">
         </div>
-        <div id="holder" class="top"><img class="ltcimg" src="images/Blue-and-White-Litecoin-Logo_1200x1200.png">
-            <div id="inputholl"><input type="text" id="ltcam" class="form2"></div>
+        <div id="holder" class="top">
+            <label for="Litecoin">Litecoin</label>
+            <input class="ltcInput" type="number" id="Litecoin">
         </div>
-        <div id="holder" class="top"><img class="xmrimg" src="images/monero.svg">
-            <div id="inputhol"><input type="text" id="xmram" class="form"></div>
+        <div id="holder" class="top">
+            <label for="Monero">Monero</label>
+            <input class="xmrInput" type="number" id="Monero">
         </div>
         <div id="total"></div>
     </div>

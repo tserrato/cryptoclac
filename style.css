@@ -37,36 +37,7 @@ h1{
     width: 100%;
 }
 
-.btcimg{
-    width: 50px;
-    margin-left: 25px;
-    margin-top: 50px;
-    float: left;
-    
-}
 
-.ethimg{
-    width: 50px;
-    margin-left: 25px;
-    margin-top: 50px;
-    float: left;
-    
-}
-
-.ltcimg{
-    width: 100px;
-    margin-top: 40px;
-    float: left;
-    
-}
-
-.xmrimg{
-    width: 50px;
-    margin-top: 65px;
-    float: left;
-    margin-left: 25px;
-    
-}
 
 .top{
     border-top: 1px solid white;
@@ -76,12 +47,16 @@ h1{
     border-top: 2px solid white;
     height: 20%;
 }
-
-.form{
-    margin-left: 100px;
-    margin-top: 70px;
+label{
+    color: white;
+    font-size: 50px;
+    font-family: OCR A Std, monospace;
+    
 }
-.form2{
-    margin-left: 75px;
-    margin-top: 70px;
+input{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: OCR A Std, monospace;
+    font-size: 20px;
+    float: right;
 }
