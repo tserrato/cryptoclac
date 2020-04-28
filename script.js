@@ -10,7 +10,7 @@ let bitamt;
 let ethAmt;
 let litAmt;
 let monAmt;
-let prices = [];
+const prices = [];
 let price;
 
 var apikey = {
@@ -106,5 +106,3 @@ btc();
 eth();
 ltc();
 xmr();
-
-console.log(prices);

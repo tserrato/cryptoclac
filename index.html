@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>Crypto Cost Calculator</h1>
+    <h1 id="heading">Crypto Cost Calculator</h1>
     <div id="left">
         <div id="widget">
             <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
@@ -39,7 +39,7 @@
     <div id="right">
         <div id="holder">
             <label for="Bitcoin">Bitcoin</label>
-            <input class="btcInput" type="number" id="Bitcoin" onkeyup="btc()">
+            <input class="btcInput" type="number" id="Bitcoin" onkeyup="one()">
         </div>
         <div id="holder" class="top">
             <label for="Ethereum">Ethereum</label>
@@ -61,5 +61,6 @@
 
 </body>
 <script src="script.js"></script>
+<script src="main.js"></script>
 
 </html>
